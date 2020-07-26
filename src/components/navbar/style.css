@@ -1,0 +1,30 @@
+.navbar ul{
+    margin:0;
+    padding: 0;
+
+}
+.navbarMenu li{
+    
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+
+}
+.navbar{
+    background-color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    margin:0 10px;
+}
