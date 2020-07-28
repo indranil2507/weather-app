@@ -28,3 +28,17 @@
     display: flex;
     margin:0 10px;
 }
+.searchInput{
+    border: 0;
+    width: 0;
+    transition: width 0.1s ease-in-out;
+}
+.searchInput.active{
+    width: 150px;
+}
+.search input:focus{
+    outline: none;
+}
+.searchicon{
+    cursor: pointer;
+}

@@ -1,11 +1,12 @@
 import React from 'react';
+import './style.css';
 
-function index(props) {
-    return (
+const Aboutus = props=>{
+    return(
         <div>
-            
+            About-Us
         </div>
     );
 }
 
-export default index;
+export default Aboutus;
